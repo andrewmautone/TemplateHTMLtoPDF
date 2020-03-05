@@ -1,0 +1,190 @@
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:400i,700i&display=swap');
+
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    justify-content: center;
+    
+  }
+  body{
+   
+    
+    margin: 0;
+    align-content: center;
+    justify-content: center;
+    
+    
+   
+  }
+  p.d{
+    word-break: break-all;
+    
+    width: 6.5em;
+   
+
+
+
+
+  }
+  p.e{
+    word-break: break-all;
+    
+    width: 15em;
+   
+
+
+
+
+  }
+  .color{
+
+    border: #000 solid 1px;
+    width: 30px;
+    margin: 2px;
+    height: 30px;
+    background-color: #bbb;
+    cursor: pointer;
+  }
+ 
+  .color#b{
+
+    background-color:rgb(0, 130, 195);
+
+  }
+  .color#w{
+
+    background-color:#fff;
+
+  }
+  #root{
+
+
+    
+
+  }
+
+  .Body{
+    font-family: 'Roboto Condensed', sans-serif;
+   
+    flex-direction: row;
+   
+    display: flex;
+    justify-content: space-around;
+   margin-right:100px;
+   margin-left: 100px;
+    
+    
+   
+    
+    
+
+
+
+  }
+  .borderdiv{
+
+      border: 3px dashed #bbb;
+
+
+  }
+  .inputfield{
+      border-width: 1.4px;
+      border-style: solid;
+    border-color: rgb(185, 185, 185);
+    border-radius: 5px;
+    height: 25px;
+    width: 100%;
+
+
+  }
+  .loader{
+    
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1000;
+    
+    background-color: rgba(0, 0, 0, 0.8);
+   
+    
+
+  }
+  .divtoscale{
+
+    
+
+
+  }
+  .inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}
+ label:focus {
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+  .inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	
+	position: absolute;
+	z-index: -1;
+}
+label{
+
+cursor: pointer;
+
+}
+h4{
+color: rgb(39, 39, 39);
+ margin-bottom: 10px;
+ font-weight:600;
+ font-style: italic;
+
+
+
+}
+h3{
+
+font-style: italic;
+
+}
+.PDF{
+    
+    flex-direction: column;
+    border: 2px solid;
+    
+    width: 282.8px;
+    height:526.33333px;
+    
+
+
+} 
+
+.border{
+
+  border: 1px solid;
+   
+
+}
+.PDFCreator{
+    display: flex;
+    width: '100%';
+    height: '100%';
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top:150px;
+
+
+
+}
